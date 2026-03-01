@@ -57,4 +57,10 @@ Locally preview production build:
 npm preview
 ```
 
+Generate SSR application for prodction:
+
+```bash
+npm generate
+```
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
