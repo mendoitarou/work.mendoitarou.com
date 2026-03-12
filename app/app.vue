@@ -27,10 +27,13 @@ useSeoMeta({
 
 <template>
   <UApp>
+    <UBanner icon="ic-outline-announcement" color="warning" title="このWebサイトは現在制作中です。" />
+    <UBanner icon="i-lucide-info" title="めんどい太郎についてはホームページを参照してください。" to="https://home.mendoitarou.com/" target="_blank" close />
+
     <UHeader>
       <template #left>
         <NuxtLink to="/">
-          <b>めんどい太郎</b>
+          <b>めんどい太郎のやってきたこと</b>
         </NuxtLink>
       </template>
 
@@ -50,6 +53,7 @@ useSeoMeta({
 
     <UMain>
       <NuxtPage />
+      <br>
     </UMain>
 
     <USeparator />
