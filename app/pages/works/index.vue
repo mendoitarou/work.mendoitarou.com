@@ -14,7 +14,22 @@ const myWorks = [{
   title: 'めんどいチャット(第一世代)',
   description: 'めんどいチャットの第一世代。',
   to: '/works/1st-mendoichat/'
-}
+}, {
+  icon: 'material-symbols-two-pager',
+  title: '文化祭で用いるスタッフ向け業務アプリケーション',
+  description: '文化祭の出し物で用いるスタッフ向けの業務アプリケーション',
+  to: '/works/schoolFes-2023/'
+}, {
+  icon: 'material-symbols-two-pager',
+  title: '文化祭で用いる会計システム',
+  description: '文化祭の出し物で用いる会計システム(POS)',
+  to: '/works/schoolFes-2025/'
+}/*, {
+  icon: '',
+  title: '',
+  description: '',
+  to: ''
+}*/
 ]
 </script>
 
