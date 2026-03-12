@@ -20,6 +20,7 @@
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.96",
     "@iconify-json/material-symbols": "^1.2.61",
-    "@iconify-json/simple-icons": "^1.2.73"
+    "@iconify-json/simple-icons": "^1.2.73",
+    "@nuxt/eslint": "^1.15.2"
   }
 }
