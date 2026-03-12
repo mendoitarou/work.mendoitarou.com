@@ -34,7 +34,7 @@ const headerLinks = ref<ButtonProps[]>([{
                             <UPageCard icon="devicon-html5" title="HTML, CSS, JavaScript" description="ピュアなHTML, CSS, JavaScriptで構成" />
                         </UPageCard>
                         <UPageCard title="バックエンド">
-                            <UPageCard icon="devicon-php" title="Nuxt.js" description="制約の多いレンタルサーバでも動作するPHP" />
+                            <UPageCard icon="devicon-php" title="PHP" description="制約の多いレンタルサーバでも動作するPHP" />
                         </UPageCard>
                         <UPageCard title="デプロイ環境">
                             <UPageCard icon="mdi-server" title="お名前ドットコム レンタルサーバ" description="レンタルサーバで動かす前提で、設計を行いました。" />
