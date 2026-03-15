@@ -75,7 +75,7 @@ useSeoMeta({
           variant="ghost"
         />
         <UButton
-          to="https://github.com/mendoitarou/work.mendoitarou.com"
+          to="https://github.com/mendoitarou"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
