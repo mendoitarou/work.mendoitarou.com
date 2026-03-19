@@ -6,6 +6,7 @@ createDate: 2026-03-01
 pinned: true
 icon: material-symbols-two-pager
 draft: false
+mainCategory: WebSite
 category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]

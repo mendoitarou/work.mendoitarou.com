@@ -14,6 +14,7 @@ export default defineContentConfig({
         pinned: z.boolean(),
         icon: z.string(),
         draft: z.boolean(),
+        mainCategory: z.string(),
         category: z.array(z.object({
             icon: z.string(),
             label: z.string()
