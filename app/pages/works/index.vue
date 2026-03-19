@@ -17,15 +17,15 @@ const { data: myWorks } = await useAsyncData('myWork-list', () => {
       <br>
       <USeparator />
       <br>
-      <UPageGrid>
+      <UBlogPosts>
         <UBlogPost
           v-for="(myWork, index) in myWorks"
           :key="index"
-          :icon="myWork.icon"
           :title="myWork.title"
           :description="myWork.description"
           :to="myWork.path"
           :date="myWork.createDate"
+          :image="myWork.thumbnail"
           :badge="{
             icon: myWork.icon,
             label: myWork.mainCategory,
@@ -33,7 +33,7 @@ const { data: myWorks } = await useAsyncData('myWork-list', () => {
             variant: 'solid'
           }"
         />
-      </UPageGrid>
+      </UBlogPosts>
     </UContainer>
   </div>
 </template>

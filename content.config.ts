@@ -13,6 +13,7 @@ export default defineContentConfig({
         createDate: z.string(),
         pinned: z.boolean(),
         icon: z.string(),
+        thumbnail: z.string(),
         draft: z.boolean(),
         mainCategory: z.string(),
         category: z.array(z.object({
