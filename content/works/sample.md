@@ -5,6 +5,7 @@ description: sample
 createDate: 2025-07-03
 pinned: false
 icon: material-symbols-two-pager
+thumbnail: /images/works/sample/sample.png
 draft: true
 category: [
     { icon: material-symbols-two-pager, label: WebSite }
