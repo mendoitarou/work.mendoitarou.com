@@ -11,7 +11,7 @@ const { data: work } = await useAsyncData(`myworks-${slug}`, () => {
             <UPageHeader :title="work.title" :description="work.description" :links="work.headerLinks"/>
             <br>
             <p>作成日: {{ work.createDate }}</p>
-            <p>Catetory: <UBadge v-for="(category, index) in work.category" :icon="category.icon" :label="category.label" /> </p>
+            <p>Catetory: <UBadge v-for="(category, index) in work.category" :icon="category.icon" :label="category.label" color="secondary" /> </p>
             <br>
             <p> <UButton label="戻る" color="neutral" to="javascript:history.back();"/> </p>
             <br>
