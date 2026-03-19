@@ -1,4 +1,6 @@
-<script setup>
+<script setup lang="ts">
+import type { NavigationMenuItem } from '@nuxt/ui'
+
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -23,6 +25,25 @@ useSeoMeta({
   twitterImage: 'https://work.mendoitarou.com/images/card-image.png',
   twitterCard: 'summary_large_image'
 })
+
+const navItems = ref<NavigationMenuItem[]>([
+  {
+    label: 'Home',
+    icon: 'material-symbols-home-outline',
+    to: '/'
+  },
+  {
+    label: 'Works',
+    icon: 'material-symbols-work-outline',
+    to: '/works/'
+  },
+  {
+    label: 'Categorys',
+    icon: 'material-symbols-category-outline',
+    to: '/works/categorys/',
+    class: 'hidden'
+  }
+])
 </script>
 
 <template>
@@ -31,11 +52,13 @@ useSeoMeta({
     <UBanner icon="i-lucide-info" title="めんどい太郎についてはホームページを参照してください。" to="https://home.mendoitarou.com/" target="_blank" close />
 
     <UHeader>
-      <template #left>
+      <template #title>
         <NuxtLink to="/">
           <b>めんどい太郎のやってきたこと</b>
         </NuxtLink>
       </template>
+
+      <UNavigationMenu content-orientation="vertical" :items="navItems" class="w-full" />
 
       <template #right>
         <UColorModeButton />
@@ -48,6 +71,10 @@ useSeoMeta({
           color="neutral"
           variant="ghost"
         />
+      </template>
+
+      <template #body>
+        <UNavigationMenu orientation="vertical" content-orientation="vertical" :items="navItems" class="w-full" />
       </template>
     </UHeader>
 
