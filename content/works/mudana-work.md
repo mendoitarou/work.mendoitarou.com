@@ -5,6 +5,7 @@ description: しょーもないドメイン。`mudana.work`
 createDate: 2025-07-03
 pinned: true
 icon: material-symbols-two-pager
+thumbnail: /images/works/mudana-work/top-image.png
 draft: false
 mainCategory: WebSite
 category: [
@@ -55,5 +56,13 @@ cards: {
         }
     ]
 }
+---
+::
+
+::ImageGalary
+---
+images: [
+    '/images/works/mudana-work/top-image.png'
+]
 ---
 ::
