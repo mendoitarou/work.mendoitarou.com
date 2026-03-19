@@ -1,26 +1,8 @@
 <script setup lang="ts">
-import type { ButtonProps } from '@nuxt/ui'
-
 const slug = useRoute().params.slug
 const { data: work } = await useAsyncData(`myworks-${slug}`, () => {
   return queryCollection('works').path(`/works/${slug}`).first()
 })
-
-const title = '無駄なwork'
-const description = 'しょーもないドメイン。`mudana.work`'
-const createDate = '2025-07-03'
-
-const headerLinks = ref<ButtonProps[]>([{
-    label: 'WebPage',
-    icon: 'material-symbols-two-pager',
-    to: 'https://mudana.work/',
-    target: '_blank'
-}, {
-    label: 'GitHub',
-    icon: 'i-simple-icons-github',
-    to: 'https://github.com/mendoitarou/mudana_work',
-    target: '_blank'
-}])
 </script>
 
 <template>
