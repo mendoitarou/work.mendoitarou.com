@@ -2,9 +2,10 @@
 id: 3
 title: めんどいチャット(第一世代)
 description: めんどいチャットの第一世代。
-createDate: 2025-07-03
+createDate: 2021-06-26日
 pinned: true
 icon: material-symbols-two-pager
+thumbnail: /images/works/mendoichat-1nd/top-image.png
 draft: false
 mainCategory: WebSite
 category: [
@@ -67,3 +68,15 @@ cards: {
 }
 ---
 ::
+
+::ImageGalary
+---
+images: [
+    '/images/works/mendoichat-1nd/top-image.png',
+    '/images/works/mendoichat-1nd/chatroom1.png',
+    '/images/works/mendoichat-1nd/releasenote1.png',
+    '/images/works/mendoichat-1nd/metaquest2.png'
+]
+---
+::
+
