@@ -20,8 +20,7 @@ const { data: work } = await useAsyncData(`myworks-${slug}`, () => {
             </div>
         </UContainer>
         <UContainer v-else>
-            <p>作品が見つかりませんでした。</p>
-            <p>URLを確認してください。</p>
+            <UPageHero title="作品が見つかりませんでした。" description="URLを確認してください。" />
         </UContainer>
     </div>
 </template>
