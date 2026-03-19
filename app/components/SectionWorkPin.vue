@@ -13,11 +13,11 @@ const { data: myWorkPin } = await useAsyncData('myWork-list-pin', () => {
         <UContainer>
             <UPageHeader headline="厳選" />
             <br>
-            <UPageGrid>
-                <UBlogPost v-for="(myWork, index) in myWorkPin" :key="index" :icon="myWork.icon" :title="myWork.title"
-                    :description="myWork.description" :to="myWork.path" :date="myWork.createDate"
+            <UBlogPosts>
+                <UBlogPost v-for="(myWork, index) in myWorkPin" :key="index" :title="myWork.title"
+                    :description="myWork.description" :to="myWork.path" :date="myWork.createDate" :image="myWork.thumbnail"
                     :badge="{ icon: myWork.icon, label: myWork.mainCategory, color: 'secondary', variant: 'solid' }" />
-            </UPageGrid>
+            </UBlogPosts>
         </UContainer>
     </div>
 </template>
