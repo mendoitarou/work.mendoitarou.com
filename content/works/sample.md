@@ -7,6 +7,7 @@ pinned: false
 icon: material-symbols-two-pager
 thumbnail: /images/works/sample/sample.png
 draft: true
+mainCategory: WebSite
 category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]
