@@ -12,8 +12,8 @@ category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]
 headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'ttps://work.mendoitarou.com/' },
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/work.mendoitarou.com' }
+    { label: WebSite, icon: material-symbols-two-pager, to: 'ttps://work.mendoitarou.com/', target: '_blank' },
+    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/work.mendoitarou.com', target: '_blank' }
 ]
 ---
 私、めんどい太郎がこれまでにやってきたことを紹介するWebページです。

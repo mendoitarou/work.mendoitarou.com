@@ -12,7 +12,7 @@ category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]
 headerLinks: [
-    { label: Qiita, icon: simple-icons-qiita, to: 'https://qiita.com/mendoitarou_/items/6cfefd1a0e54e2866382' }
+    { label: Qiita, icon: simple-icons-qiita, to: 'https://qiita.com/mendoitarou_/items/6cfefd1a0e54e2866382', target: '_blank' }
 ]
 ---
 文化祭の出し物で用いる会計システムを自作した。

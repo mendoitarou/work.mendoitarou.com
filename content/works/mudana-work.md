@@ -12,8 +12,8 @@ category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]
 headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'https://mudana.work/' },
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/mudana_work' }
+    { label: WebSite, icon: material-symbols-two-pager, to: 'https://mudana.work/', target: '_blank' },
+    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/mudana_work', target: '_blank' }
 ]
 ---
 しょーもないダジャレみたいなドメインが欲しくて取得したドメイン。

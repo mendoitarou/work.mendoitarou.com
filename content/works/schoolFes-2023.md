@@ -12,7 +12,7 @@ category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]
 headerLinks: [
-    { label: Qiita, icon: simple-icons-qiita, to: 'https://qiita.com/mendoitarou_/items/8dbc174a6d1b55fb073d' }
+    { label: Qiita, icon: simple-icons-qiita, to: 'https://qiita.com/mendoitarou_/items/8dbc174a6d1b55fb073d', target: '_blank' }
 ]
 ---
 文化祭の出し物でスタッフ向けに作成した業務アプリケーション。

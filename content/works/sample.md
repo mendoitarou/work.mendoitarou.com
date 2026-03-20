@@ -11,8 +11,8 @@ category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]
 headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'https://example.com' },
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/template' }
+    { label: WebSite, icon: material-symbols-two-pager, to: 'https://example.com', target: '_blank' },
+    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/template', target: '_blank' }
 ]
 ---
 あああ

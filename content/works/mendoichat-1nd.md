@@ -12,7 +12,7 @@ category: [
     { icon: material-symbols-two-pager, label: WebSite }
 ]
 headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'https://chat.mendoitarou.com/' }
+    { label: WebSite, icon: material-symbols-two-pager, to: 'https://chat.mendoitarou.com/', target: '_blank' }
 ]
 ---
 当時、スマートフォンを所持していなかった友達と連絡を取り合うために開発した。
