@@ -5,6 +5,7 @@ description: 文化祭の出し物で用いる会計システム
 createDate: 2025-07-03
 pinned: false
 icon: material-symbols-two-pager
+thumbnail: /images/works/schoolFes-2025/staff-top.png
 draft: false
 mainCategory: WebSite
 category: [
@@ -74,3 +75,18 @@ cards: {
 }
 ---
 ::
+
+::ImageGalary
+---
+images: [
+    '/images/works/schoolFes-2025/login.png',
+    '/images/works/schoolFes-2025/manager-top.png',
+    '/images/works/schoolFes-2025/product_manage-top.png',
+    '/images/works/schoolFes-2025/sale_cart.png',
+    '/images/works/schoolFes-2025/sale_confirm.png',
+    '/images/works/schoolFes-2025/sale_top.png',
+    '/images/works/schoolFes-2025/staff-top.png'
+]
+---
+::
+
