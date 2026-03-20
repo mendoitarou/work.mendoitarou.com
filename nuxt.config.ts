@@ -3,8 +3,13 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxt/image'
   ],
+
+  image: {
+    format: ['webp']
+  },
 
   devtools: {
     enabled: true
