@@ -18,6 +18,8 @@ headerLinks: [
 ---
 しょーもないダジャレみたいなドメインが欲しくて取得したドメイン。
 
+思いついた中で取得するための金額が現実的なものを選定した結果、このドメインになった。
+
 [kuso.domains](https://kuso.domains/)というサイトのリスペクトです。
 
 [kuso-domains/kuso.domains - GitHub](https://github.com/kuso-domains/kuso.domains)

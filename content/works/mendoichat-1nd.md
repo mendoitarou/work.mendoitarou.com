@@ -15,9 +15,9 @@ headerLinks: [
     { label: WebSite, icon: material-symbols-two-pager, to: 'https://chat.mendoitarou.com/' }
 ]
 ---
-当時、スマートフォンを所持していなかった友達と連絡を取り合うために開発。
+当時、スマートフォンを所持していなかった友達と連絡を取り合うために開発した。
 
-Nintendo SwitchでWebブラウザが起動できる点に着目し、シンプルなWebアプリケーションとして設計
+Nintendo SwitchでWebブラウザが起動できる点に着目し、シンプルなWebアプリケーションとして設計。
 
 現在は使われていないことや、脆弱性が潜んでいる可能性があることを理由にサービス一時停止中。
 
