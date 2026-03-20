@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const slug = useRoute().params.slug
-const { data: work } = await useAsyncData(`myworks-${slug}`, () => {
-  return queryCollection('works').path(`/works/${slug}`).first()
+const { data: work } = await useAsyncData(`myworks-${slug[0]}`, () => {
+  return queryCollection('works').path(`/works/${slug[0]}`).first()
 })
 </script>
 
