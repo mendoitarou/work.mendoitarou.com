@@ -2,7 +2,7 @@
 id: 3
 title: めんどいチャット(第一世代)
 description: めんどいチャットの第一世代。
-createDate: 2021-06-26日
+createDate: 2021-06-26
 pinned: true
 icon: material-symbols-two-pager
 thumbnail: /images/works/mendoichat-1nd/top-image.png
