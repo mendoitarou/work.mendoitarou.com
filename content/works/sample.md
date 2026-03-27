@@ -18,6 +18,8 @@ headerLinks: [
 ---
 あああ
 
+最新のIDメモ: 12
+
 ::TechCard
 ---
 cards: {
