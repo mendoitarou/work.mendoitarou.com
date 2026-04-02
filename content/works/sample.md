@@ -1,5 +1,5 @@
 ---
-id: 0
+workId: 0
 title: sample
 description: sample
 createDate: 2025-07-03
@@ -8,13 +8,18 @@ icon: material-symbols-two-pager
 thumbnail: /images/works/sample/sample.png
 draft: true
 mainCategory: WebSite
-category: [
-    { icon: material-symbols-two-pager, label: WebSite }
-]
-headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'https://example.com', target: '_blank' },
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/template', target: '_blank' }
-]
+category:
+- icon: material-symbols-two-pager
+  label: WebSite
+headerLinks:
+- label: WebSite
+  icon: material-symbols-two-pager
+  to: 'https://example.com'
+  target: '_blank'
+- label: GitHub
+  icon: i-simple-icons-github
+  to: 'https://github.com/mendoitarou/template'
+  target: '_blank'
 ---
 あああ
 

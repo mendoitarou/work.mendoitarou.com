@@ -1,5 +1,5 @@
 ---
-id: 5
+workId: 5
 title: 文化祭で用いる会計システム
 description: 文化祭の出し物で用いる会計システム
 createDate: 2025-07-03
@@ -8,12 +8,14 @@ icon: material-symbols-two-pager
 thumbnail: /images/works/schoolFes-2025/staff-top.png
 draft: false
 mainCategory: WebSite
-category: [
-    { icon: material-symbols-two-pager, label: WebSite }
-]
-headerLinks: [
-    { label: Qiita, icon: simple-icons-qiita, to: 'https://qiita.com/mendoitarou_/items/6cfefd1a0e54e2866382', target: '_blank' }
-]
+category:
+- icon: material-symbols-two-pager
+  label: WebSite
+headerLinks:
+- label: Qiita
+  icon: simple-icons-qiita
+  to: 'https://qiita.com/mendoitarou_/items/6cfefd1a0e54e2866382'
+  target: '_blank' 
 ---
 文化祭の出し物で用いる会計システムを自作した。
 

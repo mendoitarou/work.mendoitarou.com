@@ -1,5 +1,5 @@
 ---
-id: 2
+workId: 2
 title: 無駄なwork
 description: しょーもないドメイン。`mudana.work`
 createDate: 2025-07-03
@@ -8,13 +8,18 @@ icon: material-symbols-two-pager
 thumbnail: /images/works/mudana-work/top-image.png
 draft: false
 mainCategory: WebSite
-category: [
-    { icon: material-symbols-two-pager, label: WebSite }
-]
-headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'https://mudana.work/', target: '_blank' },
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/mudana_work', target: '_blank' }
-]
+category:
+- icon: material-symbols-two-pager
+  label: WebSite
+headerLinks:
+- label: WebSite
+  icon: material-symbols-two-pager
+  to: 'https://mudana.work/'
+  target: '_blank'
+- label: GitHub
+  icon: i-simple-icons-github
+  to: 'https://github.com/mendoitarou/mudana_work'
+  target: '_blank'
 ---
 しょーもないダジャレみたいなドメインが欲しくて取得したドメイン。
 

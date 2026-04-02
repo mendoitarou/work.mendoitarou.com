@@ -1,5 +1,5 @@
 ---
-id: 3
+workId: 3
 title: めんどいチャット(第一世代)
 description: めんどいチャットの第一世代。
 createDate: 2021-06-26
@@ -8,12 +8,14 @@ icon: material-symbols-two-pager
 thumbnail: /images/works/mendoichat-1nd/top-image.png
 draft: false
 mainCategory: WebSite
-category: [
-    { icon: material-symbols-two-pager, label: WebSite }
-]
-headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'https://chat.mendoitarou.com/', target: '_blank' }
-]
+category:
+- icon: material-symbols-two-pager
+  label: WebSite
+headerLinks:
+- label: WebSite
+  icon: material-symbols-two-pager
+  to: 'https://chat.mendoitarou.com/'
+  target: '_blank'
 ---
 当時、スマートフォンを所持していなかった友達と連絡を取り合うために開発した。
 

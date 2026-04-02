@@ -1,5 +1,5 @@
 ---
-id: 8
+workId: 8
 title: Discord_Tool_Bot
 description: '自分用に作っているいろんなツールが詰まったDiscord BOT'
 createDate: 2025-04-15
@@ -8,12 +8,14 @@ icon: simple-icons-discord
 thumbnail: https://opengraph.githubassets.com/5a5bb9d238280317997e1b8781fa26bbed4e95d67a640cecb78ccb84ff2fd056/mendoitarou/Discord_Tool_Bot
 draft: false
 mainCategory: 'Discord BOT'
-category: [
-    { icon: simple-icons-discord, label: 'Discord BOT' }
-]
-headerLinks: [
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/Discord_Tool_Bot', target: '_blank' }
-]
+category:
+- icon: simple-icons-discord
+  label: 'Discord BOT'
+headerLinks:
+- label: GitHub
+  icon: i-simple-icons-github
+  to: 'https://github.com/mendoitarou/Discord_Tool_Bot'
+  target: '_blank'
 ---
 自分と身内用に作成しているDiscord BOT。
 

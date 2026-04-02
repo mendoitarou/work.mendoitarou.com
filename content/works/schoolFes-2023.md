@@ -1,5 +1,5 @@
 ---
-id: 4
+workId: 4
 title: 文化祭で用いるスタッフ向け業務アプリケーション
 description: 文化祭の出し物で用いるスタッフ向けの業務アプリケーション
 createDate: 2023-11-11
@@ -8,12 +8,14 @@ icon: material-symbols-two-pager
 thumbnail: /images/works/schoolFes-2023/userQRShow.png
 draft: false
 mainCategory: WebSite
-category: [
-    { icon: material-symbols-two-pager, label: WebSite }
-]
-headerLinks: [
-    { label: Qiita, icon: simple-icons-qiita, to: 'https://qiita.com/mendoitarou_/items/8dbc174a6d1b55fb073d', target: '_blank' }
-]
+category:
+- icon: material-symbols-two-pager
+  label: WebSite
+headerLinks:
+- label: Qiita
+  icon: simple-icons-qiita
+  to: 'https://qiita.com/mendoitarou_/items/8dbc174a6d1b55fb073d'
+  target: '_blank'
 ---
 文化祭の出し物でスタッフ向けに作成した業務アプリケーション。
 

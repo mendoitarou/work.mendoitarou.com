@@ -1,5 +1,5 @@
 ---
-id: 1
+workId: 1
 title: MyWork(このサイト)
 description: めんどい太郎がこれまでにやってきたことを書いたページ
 createDate: 2026-03-01
@@ -8,13 +8,18 @@ icon: material-symbols-two-pager
 thumbnail: /images/works/my-work-page/top-image.png
 draft: false
 mainCategory: WebSite
-category: [
-    { icon: material-symbols-two-pager, label: WebSite }
-]
-headerLinks: [
-    { label: WebSite, icon: material-symbols-two-pager, to: 'ttps://work.mendoitarou.com/', target: '_blank' },
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/work.mendoitarou.com', target: '_blank' }
-]
+category:
+- icon: material-symbols-two-pager
+  label: WebSite
+headerLinks:
+- label: WebSite
+  icon: material-symbols-two-pager
+  to: 'ttps://work.mendoitarou.com/'
+  target: '_blank'
+- label: GitHub
+  icon: i-simple-icons-github
+  to: 'https://github.com/mendoitarou/work.mendoitarou.com'
+  target: '_blank'
 ---
 私、めんどい太郎がこれまでにやってきたことを紹介するWebページです。
 

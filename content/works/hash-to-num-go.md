@@ -1,5 +1,5 @@
 ---
-id: 6
+workId: 6
 title: ハッシュ値を数値に変換するプログラム
 description: SHA-256のハッシュ値を6ビットずつに区切り、数値に変換するプログラム。
 createDate: 2025-12-20
@@ -8,12 +8,14 @@ icon: material-symbols-service-toolbox-outline
 thumbnail: https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png
 draft: false
 mainCategory: Tools
-category: [
-    { icon: material-symbols-service-toolbox-outline, label: Tools }
-]
-headerLinks: [
-    { label: GitHub, icon: i-simple-icons-github, to: 'https://gist.github.com/mendoitarou/7582ab69c8014129ea9f03d556276a00', target: '_blank' }
-]
+category:
+- icon: material-symbols-service-toolbox-outline
+  label: Tools
+headerLinks:
+- label: GitHub
+  icon: i-simple-icons-github
+  to: 'https://gist.github.com/mendoitarou/7582ab69c8014129ea9f03d556276a00'
+  target: '_blank'
 ---
 文字列を数値の配列に変換するプログラム。
 

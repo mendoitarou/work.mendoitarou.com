@@ -1,5 +1,5 @@
 ---
-id: 12
+workId: 12
 title: 簡単に拡張可能な診断システム
 description: 学校の授業で作成したWebアプリケーション
 createDate: 2025-10-08
@@ -8,9 +8,9 @@ icon: material-symbols-two-pager
 thumbnail: /images/works/school-work-project/top.png
 draft: false
 mainCategory: WebSite
-category: [
-    { icon: material-symbols-two-pager, label: WebSite }
-]
+category:
+- icon: material-symbols-two-pager
+  label: WebSite
 ---
 テンプレート方式を採用することで、簡単に拡張可能な選択肢方式の診断システムです。
 

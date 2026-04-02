@@ -3,7 +3,7 @@ const { data: myWorkPin } = await useAsyncData('myWork-list-pin', () => {
     return queryCollection('works')
         .where('draft', '=', false)
         .where('pinned', '=', true)
-        .order('id', 'DESC')
+        .order('workId', 'DESC')
         .all()
 })
 </script>
