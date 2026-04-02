@@ -69,3 +69,11 @@ cards: {
 }
 ---
 ::
+
+::ImageGalary
+---
+images: [
+    '/images/works/desk-smart-calendar/Picture.JPG'
+]
+---
+::
