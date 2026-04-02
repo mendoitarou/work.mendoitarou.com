@@ -4,12 +4,12 @@ title: ブラウザチャイム
 description: ブラウザで学校などのチャイムを鳴らせるツール
 createDate: 2025-06-02
 pinned: false
-icon: material-symbols-two-pager
+icon: material-symbols-service-toolbox-outline
 thumbnail: https://opengraph.githubassets.com/cb678f94494b1cdc21816ba6621c737620a9c521748af3b649e838c463fd5160/mendoitarou/browser_chime
 draft: false
-mainCategory: WebSite
+mainCategory: Tools
 category: [
-    { icon: material-symbols-two-pager, label: WebSite }
+    { icon: material-symbols-service-toolbox-outline, label: Tools }
 ]
 headerLinks: [
     { label: GitHub, icon: i-simple-icons-github, to: 'https://github.com/mendoitarou/browser_chime', target: '_blank' }
