@@ -48,7 +48,7 @@ const navItems = ref<NavigationMenuItem[]>([
 
 <template>
   <UApp>
-    <UBanner icon="ic-outline-announcement" color="warning" title="このWebサイトは現在制作中です。" />
+    <UBanner icon="ic-outline-announcement" color="warning" title="コンテンツは順次追加予定です！" />
     <UBanner icon="i-lucide-info" title="めんどい太郎についてはホームページを参照してください。" to="https://home.mendoitarou.com/" target="_blank" close />
 
     <UHeader>
