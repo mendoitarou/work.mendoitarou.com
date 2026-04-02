@@ -7,7 +7,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'works/**/*.md',
       schema: z.object({
-        id: z.int(),
+        workId: z.number().int(),
         title: z.string(),
         description: z.string(),
         createDate: z.string(),
@@ -24,7 +24,7 @@ export default defineContentConfig({
             label: z.string(),
             icon: z.string(),
             to: z.string()
-        }))
+        })).optional()
       })
     })
   }
