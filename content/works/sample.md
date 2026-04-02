@@ -74,3 +74,11 @@ cards: {
 }
 ---
 ::
+
+::ImageGalary
+---
+images: [
+    '/images/works/sample/sample.png'
+]
+---
+::
