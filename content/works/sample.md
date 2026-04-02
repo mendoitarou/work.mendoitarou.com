@@ -23,7 +23,7 @@ headerLinks:
 ---
 あああ
 
-最新のIDメモ: 12
+最新のIDメモ: 14
 
 ::TechCard
 ---
