@@ -42,7 +42,7 @@ cards: {
             title: フロントエンド,
             items: [
                 {
-                    icon: devicon-nextjs,
+                    icon: i-logos-nuxt-icon,
                     title: Nuxt.js,
                     description: モダンなページを実現するためにNuxt.jsを採用
                 }
