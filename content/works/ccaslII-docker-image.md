@@ -5,7 +5,7 @@ description: CCaslII(Linux板)のDockerイメージ
 createDate: 2026-02-23
 pinned: false
 icon: material-symbols-service-toolbox-outline
-thumbnail: https://opengraph.githubassets.com/cd204fbab9168dbbf6a4b08052d31ed26a0948bfcd4f8ea6743c757959719c47/mendoitarou/CCaslII_DockerImage
+thumbnail: /images/works/ccaslII-docker-image/CCaslII_DockerImage.png
 draft: false
 mainCategory: Tools
 category:

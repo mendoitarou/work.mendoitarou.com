@@ -5,7 +5,7 @@ description: 自作した卓上スマートカレンダー
 createDate: 2024-12-12
 pinned: false
 icon: material-symbols-home-iot-device-outline
-thumbnail: https://opengraph.githubassets.com/3c6a2c0606077ed1d9c6a10386b040131eb8246e3e954bb1e08f6bf72f96cd3a/mendoitarou/Desk_Smart_Calendar
+thumbnail: /images/works/desk-smart-calendar/Desk_Smart_Calendar.png
 draft: false
 mainCategory: 'IoT Device'
 category:

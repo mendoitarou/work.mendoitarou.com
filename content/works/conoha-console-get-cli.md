@@ -5,7 +5,7 @@ description: ConoHa VPSサーバのサーバコンソールへのアクセスURL
 createDate: 2025-12-04
 pinned: false
 icon: material-symbols-service-toolbox-outline
-thumbnail: https://opengraph.githubassets.com/a132bf98f95473c25e64678f7a1aca573adb0884e9adc3ceeecfcfef5130a3ac/mendoitarou/ConoHa-Console-Get-Tool
+thumbnail: /images/works/conoha-console-get-cli/ConoHa-Console-Get-Tool.png
 draft: false
 mainCategory: Tools
 category:

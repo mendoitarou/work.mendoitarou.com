@@ -5,7 +5,7 @@ description: '自分用に作っているいろんなツールが詰まったDis
 createDate: 2025-04-15
 pinned: false
 icon: simple-icons-discord
-thumbnail: https://opengraph.githubassets.com/5a5bb9d238280317997e1b8781fa26bbed4e95d67a640cecb78ccb84ff2fd056/mendoitarou/Discord_Tool_Bot
+thumbnail: /images/works/discord-tool-bot/Discord_Tool_Bot.png
 draft: false
 mainCategory: 'Discord BOT'
 category:

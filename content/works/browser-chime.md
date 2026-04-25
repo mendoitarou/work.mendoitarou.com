@@ -5,7 +5,7 @@ description: ブラウザで学校などのチャイムを鳴らせるツール
 createDate: 2025-06-02
 pinned: false
 icon: material-symbols-service-toolbox-outline
-thumbnail: https://opengraph.githubassets.com/cb678f94494b1cdc21816ba6621c737620a9c521748af3b649e838c463fd5160/mendoitarou/browser_chime
+thumbnail: /images/works/browser-chime/browser_chime.png
 draft: false
 mainCategory: Tools
 category: [
